@@ -3,7 +3,8 @@
 nav {
   @include estilo-nav;
   display: grid;
-  grid-template-columns: 52% 48%;
+  grid-template-columns: 50% 50%;
+  margin: -1rem 0 0 0;
 }
 
 a {
