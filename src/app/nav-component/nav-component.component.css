@@ -1,0 +1,46 @@
+nav {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 52% 48%;
+}
+
+a {
+  text-decoration: none;
+  color: #040404;
+}
+a:hover {
+  transition-duration: 0.4s;
+  font-weight: bold;
+  color: #3b3c3c;
+  padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin: 0;
+  padding: 0 1.5vw 0 0;
+}
+
+img {
+  width: 10rem;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  background-color: #f3607d;
+  border: none;
+  width: 10vw;
+  height: 8vh;
+  border-radius: 8px;
+}
+button:hover {
+  transition-duration: 0.4s;
+  font-weight: bold;
+  background-color: #f03c60;
+}/*# sourceMappingURL=nav-component.component.css.map */

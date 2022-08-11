@@ -1,0 +1,50 @@
+@import "../../../variaveis.scss";
+
+nav {
+  @include estilo-nav;
+  display: grid;
+  grid-template-columns: 52% 48%;
+}
+
+a {
+  text-decoration: none;
+  color: $preto;
+
+  &:hover {
+    @include transicao-nav;
+    color: $cinza-escuro;
+    padding: 0.5rem;
+  }
+
+  // &:visited {
+  //color:$cinza-escuro;
+  //}
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin: 0;
+  padding: 0 1.5vw 0 0;
+}
+
+img {
+  width: 10rem;
+}
+
+button {
+  @include estilo-nav;
+  color: white;
+  background-color: $rosa;
+  border: none;
+  width: 10vw;
+  height: 8vh;
+  border-radius: 8px;
+
+  &:hover {
+    @include transicao-nav;
+    background-color: $rosa-escuro;
+  }
+}

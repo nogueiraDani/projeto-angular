@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuComponentComponent } from './menu-component.component';
+import { MenuComponentComponent } from './nav-component.component';
 
 describe('MenuComponentComponent', () => {
   let component: MenuComponentComponent;
