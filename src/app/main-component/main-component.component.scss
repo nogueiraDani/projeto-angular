@@ -1,0 +1,107 @@
+@import "../../variaveis.scss";
+
+.main {
+  font-family: $font;
+  margin-left: 3rem;
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    color: $grey;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  position: absolute;
+  z-index: auto;
+  background-color: white;
+  box-shadow: 0 0 1em $grey;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  h2 {
+    width: 30%;
+  }
+}
+
+.box-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 60%;
+  align-items: center;
+  div {
+    display: flex;
+    width: 25%;
+    a {
+      margin-left: 5px;
+      text-decoration: none;
+    }
+  }
+}
+
+.box-general {
+    @include icone ($url-general-grey);
+    a {
+        color: $grey;
+    }
+    &:hover {
+        @include icone($url-general-green);
+        @include hover-main();
+    }
+}
+
+.box-pediatric {
+    @include icone ($url-pediatric-grey,);
+    a {
+        color: $grey;
+    }
+    &:hover {
+        @include icone($url-pediatric-green);
+        @include hover-main();
+    }
+}
+.box-dentist {
+    @include icone ($url-dentist-grey);
+    a {
+        color: $grey;
+    }
+    &:hover {
+        @include icone($url-dentist-green);
+        @include hover-main();
+    }
+}
+.box-neurologist {
+    @include icone ($url-neurologist-grey);
+    a {
+        color: $grey;
+    }
+    &:hover {
+        @include icone($url-neurologist-green);
+        @include hover-main();
+    }
+}
+
+.general,
+.pediatric,
+.dentist,
+.neurologist {
+  width: 2rem;
+  height: 2rem;
+}
+
+form {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}

@@ -1,6 +1,7 @@
-div {
+.background {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  z-index: -1;
   img {
     width: 100%;
     border-radius: 10px;

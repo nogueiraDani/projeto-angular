@@ -1,0 +1,147 @@
+.main {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 3rem;
+}
+.main h1 {
+  font-size: 2.5rem;
+}
+.main p {
+  color: #737474;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  position: absolute;
+  z-index: auto;
+  background-color: white;
+  box-shadow: 0 0 1em #737474;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.box-header h2 {
+  width: 30%;
+}
+
+.box-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 60%;
+  align-items: center;
+}
+.box-nav div {
+  display: flex;
+  width: 25%;
+}
+.box-nav div a {
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.box-general {
+  align-items: center;
+}
+.box-general div {
+  background-image: url(./assets/people-grey.png);
+}
+.box-general a {
+  color: #737474;
+}
+.box-general:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-general:hover div {
+  background-image: url(./assets/people-green.png);
+}
+.box-general:hover a {
+  color: #2e675f;
+}
+
+.box-pediatric {
+  align-items: center;
+}
+.box-pediatric div {
+  background-image: url(./assets/baby-grey.png);
+}
+.box-pediatric a {
+  color: #737474;
+}
+.box-pediatric:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-pediatric:hover div {
+  background-image: url(./assets/baby-green.png);
+}
+.box-pediatric:hover a {
+  color: #2e675f;
+}
+
+.box-dentist {
+  align-items: center;
+}
+.box-dentist div {
+  background-image: url(./assets/tooth-grey.png);
+}
+.box-dentist a {
+  color: #737474;
+}
+.box-dentist:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-dentist:hover div {
+  background-image: url(./assets/tooth-green.png);
+}
+.box-dentist:hover a {
+  color: #2e675f;
+}
+
+.box-neurologist {
+  align-items: center;
+}
+.box-neurologist div {
+  background-image: url(./assets/brain-grey.png);
+}
+.box-neurologist a {
+  color: #737474;
+}
+.box-neurologist:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-neurologist:hover div {
+  background-image: url(./assets/brain-green.png);
+}
+.box-neurologist:hover a {
+  color: #2e675f;
+}
+
+.general,
+.pediatric,
+.dentist,
+.neurologist {
+  width: 2rem;
+  height: 2rem;
+}
+
+form {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}/*# sourceMappingURL=main-component.component.css.map */

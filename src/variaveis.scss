@@ -1,0 +1,71 @@
+// fontes
+
+$font: "Ubuntu", sans-serif;
+
+//cores
+
+$pink: #f3607d;
+$dark-pink: #f03c60;
+$light-green: #72e0d1;
+$off-white: #e2cfd3;
+$black: #040404;
+$light-brown: #594649;
+$grey: #737474;
+$dark-green: #2e675f;
+$dark-grey: #3b3c3c;
+$brown: #2b2023;
+
+//urls para icones
+$url-general-grey: url(./assets/people-grey.png);
+$url-general-green: url(./assets/people-green.png);
+$url-pediatric-grey: url(./assets/baby-grey.png);
+$url-pediatric-green: url(./assets/baby-green.png);
+$url-dentist-grey: url(./assets/tooth-grey.png);
+$url-dentist-green: url(./assets/tooth-green.png);
+$url-neurologist-grey: url(./assets/brain-grey.png);
+$url-neurologist-green: url(./assets/brain-green.png);
+
+
+//estilo do texto navegação
+
+@mixin estilo-nav {
+  font-family: $font;
+  text-transform: uppercase;
+}
+
+//estilo transicao navegação
+
+@mixin transicao-nav {
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+//estilo hover da nav
+
+@mixin hover-nav {
+  color:$dark-green;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid $dark-green;
+}
+
+//estilo quando hover-main
+
+@mixin hover-main($class: class) {
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid $dark-green;
+  @if (($class:hover): true) {
+    a {
+      color: $dark-green;
+    }
+  }
+}
+
+//add icone
+
+@mixin icone($url:$url) {
+  align-items: center;
+  div {
+      background-image: $url;
+  }
+}
+
+//add alteração total do hover
