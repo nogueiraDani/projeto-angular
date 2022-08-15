@@ -1,0 +1,13 @@
+@import "../../variaveis.scss";
+
+p{
+    font-family: $font;
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-pink;
+    font-weight: bold;
+}

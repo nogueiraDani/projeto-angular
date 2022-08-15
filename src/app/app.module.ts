@@ -13,6 +13,7 @@ import { FormSelectComponentComponent } from './form-select-component/form-selec
 import { FormButtonComponentComponent } from './form-button-component/form-button-component.component';
 import { FormNavComponentComponent } from './form-nav-component/form-nav-component.component';
 import { FormTitleComponentComponent } from './form-title-component/form-title-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FormTitleComponentComponent } from './form-title-component/form-title-c
     FormButtonComponentComponent,
     FormNavComponentComponent,
     FormTitleComponentComponent,
+    FooterComponentComponent,
   ],
   imports: [
     BrowserModule,
