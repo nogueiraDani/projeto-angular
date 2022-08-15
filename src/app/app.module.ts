@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponentComponent } from './nav-component/nav-component.component';
-import { BackgroundComponentComponent } from './background-component/background-component.component';
 import { MainComponentComponent } from './main-component/main-component.component';
 import { FormComponentComponent } from './form-component/form-component.component';
 import { FormLocationComponentComponent } from './form-location-component/form-location-component.component';
@@ -19,7 +18,6 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
   declarations: [
     AppComponent,
     NavComponentComponent,
-    BackgroundComponentComponent,
     MainComponentComponent,
     FormComponentComponent,
     FormLocationComponentComponent,

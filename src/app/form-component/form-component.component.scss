@@ -3,7 +3,7 @@
 .box {
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  width: 75vw;
   height: 25vh;
   position: absolute;
   z-index: auto;
@@ -36,8 +36,23 @@ form {
   font-family: $font;
   display: flex;
   flex-direction: row;
-  column-gap: 0.5rem;
   justify-content: space-between;
   height: 4.5rem;
+}
+
+app-form-location-component {
+  width: 27%
+}
+
+app-form-date-component {
+  width: 27%;
+}
+
+app-form-select-component {
+  width: 22%;
+}
+
+app-form-button-component {
+  width: 17%;
 }
 

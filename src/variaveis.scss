@@ -68,4 +68,12 @@ $url-neurologist-green: url(./assets/brain-green.png);
   }
 }
 
-//add alteração total do hover
+// responsive
+
+
+$breakpoint-w-tablet: 768px;
+$breakpoint-h-tablet: 1024px;
+$breakpoint-w-laptop: 900px;
+$breakpoint-h-laptop: 1440px;
+$breakpoint-w-desktop: 1050px;
+$breakpoint-h-desktop: 1680px;

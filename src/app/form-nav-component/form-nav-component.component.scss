@@ -17,7 +17,7 @@
 //links e icones
 
 .box-general {
-  margin-left: 10px;
+  margin-left: 1rem;
   @include icone($url-general-grey);
   a {
     color: $grey;
@@ -29,7 +29,7 @@
 }
 
 .box-pediatric {
-  margin-left: 10px;
+  margin-left: 1rem;
   @include icone($url-pediatric-grey);
   a {
     color: $grey;
@@ -40,7 +40,7 @@
   }
 }
 .box-dentist {
-  margin-left: 10px;
+  margin-left: 1rem;
   @include icone($url-dentist-grey);
   a {
     color: $grey;
@@ -51,7 +51,7 @@
   }
 }
 .box-neurologist {
-  margin-left: 10px;
+  margin-left: 1rem;
   @include icone($url-neurologist-grey);
   a {
     color: $grey;

@@ -1,16 +1,13 @@
 @import "../../variaveis.scss";
 
 .input-people{
-  width: 15vw;
-  height: 4.5rem;
   border-radius: 10px;
   border: 1.5px solid $off-white;
   height: 3.5rem;
-  border-radius: 10px;
-  border: 1.5px solid $off-white;
   display: flex;
   flex-direction: row;
   padding: 0.5rem;
+  margin: 0;
 }
 
 div {
