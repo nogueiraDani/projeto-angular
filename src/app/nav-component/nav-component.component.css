@@ -1,5 +1,5 @@
 nav {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -32,7 +32,7 @@ img {
 }
 
 button {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #3b3c3c;
   background-color: #72e0d1;

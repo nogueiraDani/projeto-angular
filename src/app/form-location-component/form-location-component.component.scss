@@ -1,0 +1,21 @@
+@import "../../variaveis.scss";
+
+.input-location{
+  width: 25%;
+  border-radius: 10px;
+  border: 1.5px solid $off-white;
+}
+
+img {
+  border-radius: 50%;
+  background-color: $pink;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  margin: auto 3px;
+}
+
+.input-location {
+  display: flex;
+  flex-direction: row;
+}

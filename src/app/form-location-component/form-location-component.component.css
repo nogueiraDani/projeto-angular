@@ -1,0 +1,19 @@
+.input-location {
+  width: 25%;
+  border-radius: 10px;
+  border: 1.5px solid #e2cfd3;
+}
+
+img {
+  border-radius: 50%;
+  background-color: #f3607d;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  margin: auto 3px;
+}
+
+.input-location {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=form-location-component.component.css.map */

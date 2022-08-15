@@ -1,0 +1,42 @@
+@import "../../variaveis.scss";
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  height: 25vh;
+  position: absolute;
+  z-index: auto;
+  background-color: white;
+  box-shadow: 0 0 1em $grey;
+  padding: 1.5rem;
+  margin-top: 0.5vh;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+.box-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+app-form-title-component {
+  width: 35%;
+}
+
+app-form-nav-component {
+  width: 65%;
+}
+
+//form
+
+form {
+  font-family: $font;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+  height: 4rem;
+}

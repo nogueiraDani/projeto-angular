@@ -1,0 +1,71 @@
+@import "../../variaveis.scss";
+
+.box-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0 15px 0 0;
+  div {
+    display: flex;
+    a {
+      margin-left: 5px;
+      text-decoration: none;
+    }
+  }
+}
+
+//links e icones
+
+.box-general {
+  margin-left: 10px;
+  @include icone($url-general-grey);
+  a {
+    color: $grey;
+  }
+  &:hover {
+    @include icone($url-general-green);
+    @include hover-main();
+  }
+}
+
+.box-pediatric {
+  margin-left: 10px;
+  @include icone($url-pediatric-grey);
+  a {
+    color: $grey;
+  }
+  &:hover {
+    @include icone($url-pediatric-green);
+    @include hover-main();
+  }
+}
+.box-dentist {
+  margin-left: 10px;
+  @include icone($url-dentist-grey);
+  a {
+    color: $grey;
+  }
+  &:hover {
+    @include icone($url-dentist-green);
+    @include hover-main();
+  }
+}
+.box-neurologist {
+  margin-left: 10px;
+  @include icone($url-neurologist-grey);
+  a {
+    color: $grey;
+  }
+  &:hover {
+    @include icone($url-neurologist-green);
+    @include hover-main();
+  }
+}
+
+.general,
+.pediatric,
+.dentist,
+.neurologist {
+  width: 2rem;
+  height: 2rem;
+}

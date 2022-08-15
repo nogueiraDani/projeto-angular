@@ -1,0 +1,109 @@
+.box-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0 15px 0 0;
+}
+.box-nav div {
+  display: flex;
+}
+.box-nav div a {
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.box-general {
+  margin-left: 10px;
+  align-items: center;
+}
+.box-general div {
+  background-image: url(./assets/people-grey.png);
+}
+.box-general a {
+  color: #737474;
+}
+.box-general:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-general:hover div {
+  background-image: url(./assets/people-green.png);
+}
+.box-general:hover a {
+  color: #2e675f;
+}
+
+.box-pediatric {
+  margin-left: 10px;
+  align-items: center;
+}
+.box-pediatric div {
+  background-image: url(./assets/baby-grey.png);
+}
+.box-pediatric a {
+  color: #737474;
+}
+.box-pediatric:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-pediatric:hover div {
+  background-image: url(./assets/baby-green.png);
+}
+.box-pediatric:hover a {
+  color: #2e675f;
+}
+
+.box-dentist {
+  margin-left: 10px;
+  align-items: center;
+}
+.box-dentist div {
+  background-image: url(./assets/tooth-grey.png);
+}
+.box-dentist a {
+  color: #737474;
+}
+.box-dentist:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-dentist:hover div {
+  background-image: url(./assets/tooth-green.png);
+}
+.box-dentist:hover a {
+  color: #2e675f;
+}
+
+.box-neurologist {
+  margin-left: 10px;
+  align-items: center;
+}
+.box-neurologist div {
+  background-image: url(./assets/brain-grey.png);
+}
+.box-neurologist a {
+  color: #737474;
+}
+.box-neurologist:hover {
+  align-items: center;
+  padding: 0 0 0.3rem 0;
+  border-bottom: 2px solid #2e675f;
+}
+.box-neurologist:hover div {
+  background-image: url(./assets/brain-green.png);
+}
+.box-neurologist:hover a {
+  color: #2e675f;
+}
+
+.general,
+.pediatric,
+.dentist,
+.neurologist {
+  width: 2rem;
+  height: 2rem;
+}/*# sourceMappingURL=form-nav-component.component.css.map */
