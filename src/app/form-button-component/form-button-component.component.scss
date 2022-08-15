@@ -1,9 +1,31 @@
 @import "../../variaveis.scss";
 
+div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: $pink;
+  border-radius: 10px;
+  border: none;
+  height: 4.5rem;
+}
+
+img {
+  border-radius: 50%;
+  background-color: none;
+  border: none;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: auto 0 auto 5px;
+}
+
 .button {
-    color: white;
-    background-color: $pink;
-    border: none;
-    border-radius: 10px;
-    width: 15%;
-  }
+  height: auto;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color:$pink;
+  color: white;
+  font-family: $font;
+  font-size: 18px;
+}

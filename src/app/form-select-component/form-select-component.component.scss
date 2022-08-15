@@ -1,7 +1,31 @@
 @import "../../variaveis.scss";
 
-.select {
-    width: 25%;
-    border-radius: 10px;
-    border: 1.5px solid $off-white;
-  }
+.input-people{
+  width: 15vw;
+  height: 4.5rem;
+  border-radius: 10px;
+  border: 1.5px solid $off-white;
+  height: 3.5rem;
+  border-radius: 10px;
+  border: 1.5px solid $off-white;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 50%;
+  background-color: none;
+  border: none;
+  padding: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: auto 10px auto 3px;
+}
+
+

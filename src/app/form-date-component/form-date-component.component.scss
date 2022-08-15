@@ -1,7 +1,26 @@
 @import "../../variaveis.scss";
 
-.input-date{
-  width: 25%;
+.input-date {
+  height: 4.5rem;
   border-radius: 10px;
   border: 1.5px solid $off-white;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 50%;
+  background-color: none;
+  border: 1.8px solid $dark-green;
+  padding: 10px;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: auto 10px auto 3px;
 }

@@ -36,7 +36,8 @@ form {
   font-family: $font;
   display: flex;
   flex-direction: row;
-  margin-top: 1rem;
+  column-gap: 0.5rem;
   justify-content: space-between;
-  height: 4rem;
+  height: 4.5rem;
 }
+
